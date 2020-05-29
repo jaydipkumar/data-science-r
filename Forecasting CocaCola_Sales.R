@@ -115,7 +115,7 @@ colnames(table_rmse)<-c("model","RMSE")
 
 View(table_rmse)
 
-setwd("C:/Users/Aju/Downloads/")
+setwd("/Users/jaydippipariya/Downloads/Data Science/")
 write.csv(table_rmse,file="table_rmse_coca.csv",col.names = F,row.names = F)
 
 # Additive Seasonality with Quadratic trend  has least RMSE value
