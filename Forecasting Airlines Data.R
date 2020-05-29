@@ -96,6 +96,6 @@ View(table_rmse)
 
 
 
-setwd("C:/Users/Aju/Downloads/")
+setwd("/Users/jaydippipariya/Downloads/Data Science/")
 write.csv(table_rmse,file="table_rmse_Airlines.csv",col.names = F,row.names = F)
 
